@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* This maps the HSL values to the "primary" utility classes */
+  --color-primary: hsl(221.2 83.2% 53.3%);
+  --color-ring: hsl(221.2 83.2% 53.3%);
+}
+
+@layer base {
+  :root {
+    --primary: 221.2 83.2% 53.3%;
+    --ring: 221.2 83.2% 53.3%;
+  }
+}
